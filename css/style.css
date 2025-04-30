@@ -1,0 +1,51 @@
+.earth {
+    position: absolute;
+    width: 20%;
+    pointer-events: none;
+    display: block;
+    margin-top: 2.5%;
+    margin-left: 2%;
+}
+
+.share {
+    position: absolute;
+    top: 94.8%;
+}
+
+h1 {
+    font-size: 160%;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-shadow: 3px  5px 6px rgb(255, 255, 255);
+    color: #488ad4;
+    margin: 8%;
+    margin-top: 2.4%;
+    margin-left: 25%;
+}
+
+.logo-text {
+    margin-left: 34%;
+    font-size: 1.2em;
+    line-height: 150%;
+}
+
+.waviy {
+    position: relative;
+}
+
+.waviy span {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    margin-top: 5%;
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: #488ad4;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+}
+  
+@keyframes flip {
+    0%,80% {
+        transform: rotateY(360deg) 
+    }
+}

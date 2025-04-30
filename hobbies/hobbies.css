@@ -1,0 +1,20 @@
+.text1 {
+    margin-top: 0%;
+    font-size: 34px;
+    padding: 40px;
+}
+
+.frame {
+    margin-top: 20px;
+    border-top: 5px double rgb(0, 0, 0);
+    border-bottom: 5px double rgb(0, 0, 0);
+    border-radius: 10%;
+}
+
+.hobby {
+    margin-left: 30%;
+    margin-top: 2%;
+    width: 40%;
+}
+
+

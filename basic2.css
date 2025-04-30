@@ -1,0 +1,82 @@
+.button {
+    gap: 10%;
+    width: 100%;
+    justify-content: center;
+}
+
+.menu_full {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: #bd3030;
+    border-radius: 5px;
+}
+
+.menu_full ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu_full li {
+    margin-top: 0.3%;
+
+}
+
+.menu_full ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu_full ul li a:hover {
+    color: rgb(194, 191, 199);
+    transform: scale(1.1);
+}
+
+.menu1 {
+    transition: transform 0.3s ease;
+}
+
+.menu1:hover {
+    transform: scale(1.1);
+}
+
+.menu2 {
+    transition: transform 0.3s ease;
+}
+
+.menu2:hover {
+    transform: scale(1.1);
+}
+
+.menu3 {
+    transition: transform 0.3s ease;
+}
+
+.menu3:hover {
+    transform: scale(1.1);
+}
+
+.menu4 {
+    transition: transform 0.3s ease;
+}
+
+.menu4:hover {
+    transform: scale(1.1);
+}
+
+
+body {
+   background-color: rgb(231, 206, 173);
+}
+
+.boat {
+    transition: transform 0.3s;
+}
+
+.boat:hover {
+    transform: scale(1.5) translate(8px, 8px);
+}
+
+  
