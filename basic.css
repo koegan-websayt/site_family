@@ -83,6 +83,7 @@ h1 {
 }
 
 body {
+    overflow: hidden;
     background: conic-gradient(from 315deg at 30%  100%, rgba(184,223,214,0.77) 0%, transparent 50%, rgb(187,220,187) 100%) 60% 35%/170% 180%,
                 linear-gradient(105deg, rgb(180,216,213) 0%, rgb(180,216,213) 20%, rgb(166,209,176) 50%, rgb(142,204,187) 50%, rgb(166,211,190) 100%);
   }
