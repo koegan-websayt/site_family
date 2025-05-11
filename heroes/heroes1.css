@@ -1,0 +1,52 @@
+.logo-text {
+    margin-left: 38%;
+    font-size: 1.2em;
+    line-height: 150%;
+    margin-top: -1%;
+}
+
+.waviy span {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    margin-top: 5%;
+    display: inline-block;
+    font-size: 40px;
+    color: #bd1313;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+}
+  
+@keyframes flip {
+    0%,80% {
+        transform: rotateY(360deg) 
+    }
+}
+
+.zvezda {
+    width: 39%;
+    position: absolute;
+    z-index: -1;
+    margin-left: 28%;
+    margin-top: 1%;
+ }
+
+.heroespic {
+    float: right;
+    width: 14%;
+    margin: 0% 30px 2px 2%;
+    margin-right: 20%;
+}
+
+.text1 {
+    margin-top: 2%;
+    font-size: 180%;
+} 
+
+p {
+    text-indent: 30px;
+    text-align: justify;
+    z-index: 0;
+    margin-left: 14%;
+    margin-right: 20%;
+}
+
