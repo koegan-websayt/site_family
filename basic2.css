@@ -34,41 +34,15 @@
     transform: scale(1.1);
 }
 
-.menu1 {
+.menu {
     transition: transform 0.3s ease;
 }
 
-.menu1:hover {
+.menu:hover {
     transform: scale(1.1);
 }
-
-.menu2 {
-    transition: transform 0.3s ease;
-}
-
-.menu2:hover {
-    transform: scale(1.1);
-}
-
-.menu3 {
-    transition: transform 0.3s ease;
-}
-
-.menu3:hover {
-    transform: scale(1.1);
-}
-
-.menu4 {
-    transition: transform 0.3s ease;
-}
-
-.menu4:hover {
-    transform: scale(1.1);
-}
-
 
 body {
-   overflow: hidden;
    background-color: rgb(231, 206, 173);
 }
 
